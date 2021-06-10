@@ -1,6 +1,6 @@
 <?php
 
-include 'conexao.php';
+include './conexao.php';
 
 $query_events = "SELECT id, title, color, start, end FROM events";
 $resultado_events = $conn->prepare($query_events);
