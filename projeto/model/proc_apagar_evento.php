@@ -14,12 +14,12 @@ if (!empty($id)) {
     
     if($delete_event->execute()){
         $_SESSION['msg'] = '<div class="alert alert-success" role="alert">O evento foi apagado com sucesso!</div>';
-        header("Location: index.php");
+        header("Location: agenda.php");
     }else{
         $_SESSION['msg'] = '<div class="alert alert-danger" role="alert">Erro: O evento não foi apagado com sucesso!</div>';
-        header("Location: index.php");
+        header("Location: agenda.php");
     }
 } else {
     $_SESSION['msg'] = '<div class="alert alert-danger" role="alert">Erro: O evento não foi apagado com sucesso!</div>';
-    header("Location: index.php");
+    header("Location: agenda.php");
 }

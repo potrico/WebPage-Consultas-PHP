@@ -1,0 +1,138 @@
+/* Gerais */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+}
+
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+}
+
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+
+/** Barra de navegação **/
+
+header, .navbar{
+    background-color: #15324a;
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 75px;
+}
+
+.navbar-brand{
+    padding: 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.navbar-brand a:hover{
+    color: #fff;
+}
+
+#navbar-links a{
+    color: #fff;
+    text-align: center;
+}
+
+.nav-link:hover{
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-link {
+    padding: 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+    padding-right: 60px;
+    font-size: larger;
+}
+
+/** Titulo **/
+
+.titulo{
+    text-align: center;
+}
+
+.main-title{
+    color: #15324a;
+    text-align: center;
+    font-size: 40px;
+    position:relative;
+    margin-top: 4%;
+}
+
+.main-title::after{
+    content:"";
+    border-top: 2px solid #15324a;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+    
+}
+
+
+main
+
+/* Formulário */
+
+.container-box{
+    margin: 20px;
+}
+
+.form-box{
+    background-color: #15324a;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+label{
+    color: white;
+}
+
+
+/**Teste Cabeçalho**/
+
+.footer-box{
+    background-color: #f9f9f9;
+    height: 130px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contato-box .contato-titulo, .upf-box{
+    text-align: center;
+}
+
+.contato-titulo h5{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.name-box p{
+    font-size: 10px;
+    position: relative;
+    margin: auto;
+}
+
+.upfimg{
+    width: 140px;
+    height: 115px;
+}

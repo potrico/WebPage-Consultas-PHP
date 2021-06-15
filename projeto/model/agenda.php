@@ -19,8 +19,54 @@ session_start();
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <script src="../include/js/personalizado.js"></script>
+          <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <link rel="stylesheet" type="text/css" href="../utils/css/cadastro.css">
+
+        
     </head>
     <body>
+   
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+
+                <a href="principal.html" class="navbar-brand">
+                    <img id="logo" src="../utils/img/logo2.png" alt="CM Cadastro"> XABLAU
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+                    aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="av-item nav-link" id="home-menu" href="../index.html">Home</a>
+                        <a class="av-item nav-link" id="cadastro-menu" href="../view/cadastroPaciente.php">Cadastro de
+                            Pacientes</a>
+                        <a class="av-item nav-link" id="agenda-menu" href="../model/agenda.php">Agendamento de Consultas</a>
+                        <a class="av-item nav-link" id="login-menu" href="../view/login.php">Cadastre-se</a>
+
+                    </div>
+
+                </div>
+
+            </nav>
+        </div>
+
+    </header>
         <?php
         if (isset($_SESSION['msg'])) {
             echo $_SESSION['msg'];

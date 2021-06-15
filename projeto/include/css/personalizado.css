@@ -7,7 +7,7 @@ body {
 
 #calendar {
     max-width: 900px;
-    margin: 0 auto;
+    margin:  auto;
 }
 .visevent{
     display: block;
