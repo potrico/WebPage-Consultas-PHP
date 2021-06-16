@@ -1,10 +1,10 @@
-/* Lógico_desWeb: */
+/* LÃ³gico_desWeb: */
 
 CREATE TABLE Paciente (
     nome VARCHAR(220),
     telefone VARCHAR(30),
     cpf VARCHAR(30),
-    endereço VARCHAR(220),
+    endereÃ§o VARCHAR(220),
     cep VARCHAR(30),
     email VARCHAR(30),
     idpaciente INTEGER PRIMARY KEY
@@ -24,5 +24,5 @@ CREATE TABLE Usuario (
     nome VARCHAR(220),
     nivel VARCHAR(30),
     usuario VARCHAR(30),
-    senha VARCHAR(30)
+    senha VARCHAR(35)
 );
