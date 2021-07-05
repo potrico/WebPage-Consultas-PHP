@@ -1,0 +1,95 @@
+
+/* Gerais */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+}
+
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+
+
+
+/** Barra de navegação **/
+
+header, .navbar{
+    background-color: #15324a;
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 75px;
+}
+
+.navbar-brand{
+    padding: 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.navbar-brand a:hover{
+    color: #fff;
+}
+
+#navbar-links a{
+    color: #fff;
+    text-align: center;
+}
+
+.nav-link:hover{
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-link {
+    padding: 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+    padding-right: 60px;
+    font-size: larger;
+}
+
+
+
+
+/** login **/
+
+.text-info{
+    color: #15324a;
+}
+
+  #login .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: 320px;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+  }
+
+  #login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+  }
+  
+  #login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+  }
+
+  

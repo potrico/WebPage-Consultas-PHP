@@ -1,0 +1,58 @@
+/**Teste Cabeçalho**/
+
+
+.footer{
+    bottom: 0;
+}
+.footer .rdp_img{
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    bottom: 0;
+    opacity: 100%;
+}
+
+.linha_footer{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+
+.upf-box{
+    text-align: left;
+}
+
+.contato-box{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 17px;
+}
+
+.name-box p{
+    font-size: 10px;
+    position: relative;
+    margin: auto;
+    
+}
+
+.upfimg{
+    width: 140px;
+    height: 115px;
+    margin-left: 150px;
+}
+
+.nomes p{
+    font-size: 08px;
+    
+}
+
+#p2{
+    color: rgb(87, 87, 87);
+
+}
+
+#p3{
+    color: #bfc2c4;
+
+}
